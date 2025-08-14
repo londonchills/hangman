@@ -9,13 +9,13 @@ def get_valid_word(words):
 
     return word.upper()
 
-def hangman()
+def hangman():
     word = get_valid_word(words)
     word_letters = set(word)
     alphabet = set(string.ascii_uppercase)
     used_letters = set()
    
-    user_input = input('Guess a letter: ').upper()
+    user_letter = input('Guess a letter: ').upper()
     if user_letter in alphabet - used_letters:
         used_letters.add(user_letter)
         if used_letter in word_letters:
