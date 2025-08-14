@@ -39,4 +39,8 @@ def hangman():
         else:
             print('Invalid character. Try again')
 
+    if lives == 0:
+        print('Sorry you lost.')
+        
+
 hangman()
