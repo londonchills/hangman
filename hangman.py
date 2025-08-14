@@ -43,8 +43,8 @@ def hangman():
         print('Sorry you lost. The word was', word)
     
     else:
-        print('You guessed the word' word, '!!')
-        
+        print('You guessed the word', word, '!!')
+
 
 
 hangman()
