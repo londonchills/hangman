@@ -22,4 +22,8 @@ def hangman()
             word_letters.remove(user_letter)
 
     elif user_letter in used_letters:
-        print('Letter already been used')
+        print('Letter already been used. Try again')
+    
+    else:
+        print('Invalid character. Try again')
+        
