@@ -20,3 +20,6 @@ def hangman()
         used_letters.add(user_letter)
         if used_letter in word_letters:
             word_letters.remove(user_letter)
+
+    elif user_letter in used_letters:
+        print('Letter already been used')
