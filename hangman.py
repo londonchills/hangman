@@ -14,6 +14,8 @@ def hangman():
     word_letters = set(word)
     alphabet = set(string.ascii_uppercase)
     used_letters = set()
+
+    lives = 6
    
     while len(word_letters) > 0:
         print('You have used these letters: ', ' '.join(used_letters))
